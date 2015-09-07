@@ -1,3 +1,9 @@
+// All material is licensed under the Apache License Version 2.0, January 2004
+// http://www.apache.org/licenses/LICENSE-2.0
+
+// added by John Johnson
+
+// Sample program using example1.go, showing Test Examples
 package main
 
 import (
@@ -32,6 +38,9 @@ func Example() {
 	aaa := int32(10)
 
 	fmt.Printf("aaa := int32(10) %T [%v]\n", aaa, aaa)
+
+	// The Output shows what the expected result when running go test.
+	// The test will fail if it doesn't match.
 
 	// Output:
 	// var a int 	 int [0]
